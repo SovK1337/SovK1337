@@ -1,118 +1,93 @@
-# 👋 Hi, I'm Kaike
 
-I'm a software engineering student from Brazil who enjoys building projects for the sake of learning. Most of my repositories start as experiments to explore something new, whether that is AI, desktop applications, graphics, web development, or low-level programming.
+<h1 align="center">Hi, I'm Kaike 👋</h1>
 
-I believe the best way to learn is by making things, breaking them, and improving them.
+<p align="center">
+  Software Engineering student from Brazil, building software across desktop development, web, and applied AI.
+</p>
 
----
+<p align="center">
+  <a href="https://github.com/SovK1337?tab=repositories"><img src="https://img.shields.io/badge/Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="Projects" /></a>
+  <a href="https://www.linkedin.com/in/kaike-silva-2bb79125b/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+</p>
 
-# 🚀 Currently Working On
+I learn by building practical projects, investigating how things work, and iterating when something breaks. I'm interested in clean application design as well as understanding the systems beneath it.
 
-- 🤖 Studying **Applied AI Engineering**, modern AI model architectures, and **SWE** at college
-- 🖥️ Building desktop applications with **.NET, C#, and WPF/XAML**
-- 🌐 Developing full-stack web applications with **React, Express, and PostgreSQL**
-- 🐧 Daily driving **Arch Linux** with **Neovim** in a dual-boot setup with Windows
-- 🧠 Learning more about machine learning, local inference, and AI tooling
-- 📦 Creating new repositories whenever an idea seems worth exploring
+## 🚀 Current Focus
 
----
+- **Desktop development:** Building Windows applications with C#, .NET, WPF, and XAML.
+- **Full-stack development:** Creating web tools with React, TypeScript, Python, FastAPI, Express, and databases.
+- **Applied AI:** Studying model architectures, training workflows, and local inference.
+- **Windows internals:** Learning the Win32 API and low-level Windows development through hands-on implementation.
+- **Reverse engineering:** Developing my understanding of program behavior, binary analysis, and how software works under the hood.
+- **Development environment:** Daily use of Arch Linux and Neovim, alongside Windows for native desktop development.
 
-# ⭐ Featured Projects
+## ⭐ Featured Projects
 
-### 🕒 [Custom Clock](https://github.com/ssek69420/customClock)
-A modern desktop clock application built with **C# and WPF/XAML**, focused on clean UI design and native Windows development.
+### 🕒 [Custom Clock](https://github.com/SovK1337/customClock)
 
-### 🤖 [Basic TensorFlow Model](https://github.com/ssek69420/basic-tensorflow-model)
-A simple machine learning project created to better understand TensorFlow fundamentals, model training, and inference.
+A customizable Windows desktop clock built with C#, .NET, WPF, and XAML. Features include a dedicated alarm-management interface, second-level alarm scheduling, custom audio ringtones, and a custom notification window.
 
-### 🌐 [Simple Web Interface Training](https://github.com/ssek69420/simple-web-interface-training)
-A lightweight web interface that connects to a Python backend to configure and launch AI model training, built with **React, TypeScript, and FastAPI**.
+`C#` `WPF` `XAML` `.NET`
 
----
+### 🧠 [AI Training Web Interface](https://github.com/SovK1337/simple-web-interface-training)
 
-# 💡 Interests
+A React + TypeScript frontend paired with a FastAPI backend for configuring and launching Python model-training scripts from a browser. Training options are sent as JSON, converted into command-line arguments, and executed by the backend, which returns process output and status. The included training script is designed around Google's FLAN-T5 Base model.
 
-I enjoy working on projects involving:
+`React` `TypeScript` `FastAPI` `Python`
 
-- Artificial Intelligence
-- Desktop applications
-- Linux and open-source software
-- Developer tools
-- Graphics programming
-- UI/UX design
-- Automation
-- Performance optimization
-- Creative coding
+### 🤖 [Basic TensorFlow Model](https://github.com/SovK1337/basic-tensorflow-model)
 
-If I have never built something before, that is usually enough reason to start a new repository.
+A small supervised-classification experiment using TensorFlow.js for Node.js. It explores normalized input features, a dense neural network, softmax classification, and prediction probabilities on a small sample dataset.
 
----
+`JavaScript` `TensorFlow.js` `Node.js`
 
-# 🌐 Connect with me
+<p align="center">
+  <a href="https://github.com/SovK1337?tab=repositories">Explore all public repositories →</a>
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kaike-silva-2bb79125b?utm_source=share_via&utm_content=profile&utm_medium=member_android)
-
----
-
-# 💻 Tech Stack
+## 🧰 Tech Stack
 
 ### Languages
 
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=222222)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-### Frameworks & Libraries
+### Desktop & Web
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![WPF](https://img.shields.io/badge/WPF-512BD4?style=flat-square&logo=windows&logoColor=white)
+![XAML](https://img.shields.io/badge/XAML-0078D4?style=flat-square&logo=windows&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Express](https://img.shields.io/badge/Express-404D59?style=flat-square&logo=express&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
 ### AI & Data
 
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
 
-### Tools
+### Tools & Environment
 
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Playwright](https://img.shields.io/badge/-playwright-%232EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=archlinux&logoColor=white)
+![Neovim](https://img.shields.io/badge/Neovim-57A143?style=flat-square&logo=neovim&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
 
-### Development Environment
+## 🤝 Connect
 
-![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
-![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
-![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+I'm interested in software development opportunities and projects where I can contribute, keep learning, and build useful software.
 
-### Creative
+- **GitHub:** [SovK1337](https://github.com/SovK1337)
+- **LinkedIn:** [Kaike Silva](https://www.linkedin.com/in/kaike-silva-2bb79125b/)
 
-![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white)
-![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white)
-![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
-![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-
----
-
-# 📈 GitHub Stats
-
-![](https://github-readme-stats.shion.dev/api?username=ssek69420&theme=neon&hide_border=false&include_all_commits=true&count_private=false)
-
-![](https://streak-stats.demolab.com/?user=ssek69420&theme=neon&hide_border=false)
-
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=ssek69420&theme=neon&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
-
----
-
-> "Such as are your habitual thoughts, such also will be the character of your mind; for the soul is dyed by the thoughts."  
-> — Marcus Aurelius
+<p align="center">
+  <i>“I learn by building, testing, and improving.”</i>
+</p>
