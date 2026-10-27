@@ -1,8 +1,7 @@
-
 <h1 align="center">Hi, I'm Kaike 👋</h1>
 
 <p align="center">
-  Software Engineering student from Brazil, building software across desktop development, web, and applied AI.
+  Software Engineering student from Brazil, building software across native Windows development, web applications, and applied AI.
 </p>
 
 <p align="center">
@@ -10,34 +9,46 @@
   <a href="https://www.linkedin.com/in/kaike-silva-2bb79125b/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
-I learn by building practical projects, investigating how things work, and iterating when something breaks. I'm interested in clean application design as well as understanding the systems beneath it.
+I learn by building practical projects, investigating how things work, and improving them through testing. I'm interested in both application development and the lower-level systems that make software work.
 
 ## 🚀 Current Focus
 
-- **Desktop development:** Building Windows applications with C#, .NET, WPF, and XAML.
-- **Full-stack development:** Creating web tools with React, TypeScript, Python, FastAPI, Express, and databases.
-- **Applied AI:** Studying model architectures, training workflows, and local inference.
-- **Windows internals:** Learning the Win32 API and low-level Windows development through hands-on implementation.
-- **Reverse engineering:** Developing my understanding of program behavior, binary analysis, and how software works under the hood.
-- **Development environment:** Daily use of Arch Linux and Neovim, alongside Windows for native desktop development.
+- **Native Windows development:** Building desktop applications with C#, .NET, WPF, and XAML, while exploring the Win32 API for lower-level Windows programming.
+- **C++ and APIs:** Working with the Crow API, connecting applications to APIs, and using CMake to configure C++ projects.
+- **Full-stack development:** Building web interfaces and backends with React, TypeScript, Python, FastAPI, Express, and databases.
+- **Applied AI:** Exploring model architectures, training workflows, local inference, and integrating LLM APIs into C#/XAML applications.
+- **Reverse engineering:** Studying program behavior and how software works internally.
+- **Development environment:** Using Arch Linux and Neovim, alongside Windows for native desktop development.
 
 ## ⭐ Featured Projects
 
 ### 🕒 [Custom Clock](https://github.com/SovK1337/customClock)
 
-A customizable Windows desktop clock built with C#, .NET, WPF, and XAML. Features include a dedicated alarm-management interface, second-level alarm scheduling, custom audio ringtones, and a custom notification window.
+A customizable Windows desktop clock built with C#, .NET, WPF, and XAML. It displays the current time down to the second, changes messages according to the time of day, and supports multiple alarms with hour-, minute-, and second-level scheduling. Users can enable or remove individual alarms, choose custom audio files as ringtones, and receive notifications through a dedicated window.
 
-`C#` `WPF` `XAML` `.NET`
+`C#` `.NET` `WPF` `XAML`
+
+### 📝 [Win32NPD](https://github.com/SovK1337/win32npd)
+
+A minimal Notepad-style Windows application implemented directly with the Win32 API. The project uses native Windows functionality rather than a UI framework, and its `build.bat` script invokes the compiler and links system libraries such as `user32.lib` and `gdi32.lib` manually, without CMake.
+
+`C++` `Win32 API` `Windows`
+
+### 🔄 [Markdown-conv](https://github.com/SovK1337/Markdown-conv)
+
+A small Markdown-to-HTML conversion tool with a React and TypeScript interface connected to a C++ HTTP backend built with Crow. The frontend sends text to the API, displays the returned HTML, and provides a rendered preview. The converter currently uses custom rules for a limited set of Markdown-like markers rather than implementing the full Markdown specification.
+
+`C++20` `Crow` `CMake` `React` `TypeScript` `Vite`
 
 ### 🧠 [AI Training Web Interface](https://github.com/SovK1337/simple-web-interface-training)
 
-A React + TypeScript frontend paired with a FastAPI backend for configuring and launching Python model-training scripts from a browser. Training options are sent as JSON, converted into command-line arguments, and executed by the backend, which returns process output and status. The included training script is designed around Google's FLAN-T5 Base model.
+A React and TypeScript frontend with a FastAPI backend for configuring and launching Python model-training scripts from a browser. The interface sends training settings as JSON; the backend converts them into command-line arguments, runs `train.py`, and returns its output, errors, and exit status. The included training script is designed around Google's FLAN-T5 Base model.
 
-`React` `TypeScript` `FastAPI` `Python`
+`React` `TypeScript` `FastAPI` `Python` `FLAN-T5`
 
 ### 🤖 [Basic TensorFlow Model](https://github.com/SovK1337/basic-tensorflow-model)
 
-A small supervised-classification experiment using TensorFlow.js for Node.js. It explores normalized input features, a dense neural network, softmax classification, and prediction probabilities on a small sample dataset.
+A small supervised-classification experiment using TensorFlow.js and Node.js. It trains a dense neural network on a small dataset with normalized input values, then uses softmax output to produce class predictions and probabilities.
 
 `JavaScript` `TensorFlow.js` `Node.js`
 
@@ -54,17 +65,22 @@ A small supervised-classification experiment using TensorFlow.js for Node.js. It
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=222222)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
-### Desktop & Web
+### Desktop, Native Windows & Web
 
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![WPF](https://img.shields.io/badge/WPF-512BD4?style=flat-square&logo=windows&logoColor=white)
 ![XAML](https://img.shields.io/badge/XAML-0078D4?style=flat-square&logo=windows&logoColor=white)
+![Win32 API](https://img.shields.io/badge/Win32_API-0078D4?style=flat-square&logo=windows&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Express](https://img.shields.io/badge/Express-404D59?style=flat-square&logo=express&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Crow](https://img.shields.io/badge/Crow_C%2B%2B_API-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
 
-### AI & Data
+### AI, Machine Learning & Data
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
@@ -83,7 +99,7 @@ A small supervised-classification experiment using TensorFlow.js for Node.js. It
 
 ## 🤝 Connect
 
-I'm interested in software development opportunities and projects where I can contribute, keep learning, and build useful software.
+I'm interested in software development opportunities where I can contribute to practical projects, work through technical problems, and keep building useful software.
 
 - **GitHub:** [SovK1337](https://github.com/SovK1337)
 - **LinkedIn:** [Kaike Silva](https://www.linkedin.com/in/kaike-silva-2bb79125b/)
